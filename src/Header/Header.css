@@ -1,0 +1,23 @@
+.header-top {
+    background-color: #1d2b3b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.5em;
+}
+
+.header-logo {
+    display: inline-block;
+}
+
+.header-featured {
+    display: inline-block;
+    color: #a5c559;
+    border: 1px solid #a5c559;
+    padding: 0.5em 0.9em;
+    border-radius: 5px;
+}
+
+.fa-graduation-cap {
+    color: white;
+}

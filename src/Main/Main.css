@@ -1,0 +1,16 @@
+.main-tab-nav {
+    padding-top: 2em;
+    font-style: italic;
+}
+
+.main-tab-nav-selected {
+    color: #547bba;
+}
+
+.main-heading {
+    margin-top: 0;
+}
+
+.main-tab-container {
+    background-color: #edf1f8;
+}
