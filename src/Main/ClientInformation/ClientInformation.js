@@ -3,12 +3,11 @@ import './ClientInformation.css'
 
 const EditClient = () => (
     <div>
-        <h3 className="client-information-tab">Client Information</h3>
         <div className="client-information-container">
             <p className="client-information-required">* Required</p>
             <div className="client-information-form">
                 <form>
-                    <div>
+                    <div className="client-information-">
                         <label>Company Name: *</label>
                         <br />
                         <input className="client-information-input" type="text" placeholder="Bob Loblaw" name="company" required />
@@ -17,7 +16,7 @@ const EditClient = () => (
                         <br />
                         <select className="client-information-select" name="category">
                             <option value="law">Law</option>
-                            <option value="criminal">Criminal</option>
+                            <option value="criminal">Drug Dealing</option>
                         </select>
                         <br />
                         <label>State / Country / Region: *</label>
@@ -40,6 +39,18 @@ const EditClient = () => (
                         </select>
                     </div>
                 </form>
+            </div>
+        </div>
+        <div className="button-container">
+            <hr />
+            <div className="button-gtoups">
+                <div>
+                    <button className="btn-green">Update Client</button>
+                    <button className="btn-brick">Cancel</button>
+                </div>
+                <div>
+                    <button className="btn-red">Delete Client</button>
+                </div>
             </div>
         </div>
     </div>

@@ -1,18 +1,17 @@
 import React from 'react';
+import './Footer.css'
 
 const Footer = () => (
-    <div>
-        <ul>
-            <li>Main Site</li>
-            <li>Video Guides</li>
-            <li>Forum</li>
-            <li>Webinars and Training</li>
-            <li>Hepl Centre</li>
-            <li>Contact Support</li>
-        </ul>
-        <a href="/">
-            <img src="./images/brightlocal-logo.svg" alt="BrightLocal"/>
-        </a>
+    <div className="footer">
+        <div className="footer-menu">
+            <div className="footer-menu-item">Main Site</div>
+            <div className="footer-menu-item">Video Guides</div>
+            <div className="footer-menu-item">Forum</div>
+            <div className="footer-menu-item">Webinars and Training</div>
+            <div className="footer-menu-item">Hepl Centre</div>
+            <div className="footer-menu-item">Contact Support</div>
+        </div>
+                <img className="footer-logo" src="./images/brightlocal-logo.svg" alt="BrightLocal"/>
     </div>
 );
 

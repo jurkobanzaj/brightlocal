@@ -1,10 +1,10 @@
-.main-tab-nav {
+.main-nav {
     padding-top: 2em;
     font-style: italic;
 }
 
 .main-tab-nav-selected {
-    color: #547bba;
+    color: #5e7396;
 }
 
 .main-heading {
@@ -13,4 +13,73 @@
 
 .main-tab-container {
     background-color: #edf1f8;
+    margin-bottom: 5em;
+    border-bottom: 2em solid #edf1f8;
+}
+
+.tab {
+    display: inline-block;
+    font-size: 1.17em;
+    font-weight: bold;
+    padding: 0.7em;
+    margin: 0.2em 0.2em 0 0.2em;
+    cursor: pointer;
+}
+
+.react-tabs__tab--selected {
+    border-radius: 0;
+}
+
+.react-tabs__tab-list {
+    border-bottom: none;
+    margin: 0;
+}
+
+button {
+    padding: 0.7em 0.9em;
+    border-radius: 3px;
+    border: none;
+    margin: 0.3em;
+    color: white;
+}
+
+.btn-green {
+    background-color: rgba(159, 197, 70, 1);
+}
+
+.btn-green:hover {
+    background-color: rgba(159, 197, 70, 0.8);
+}
+
+.btn-brick {
+    background-color: rgba(209, 142, 94, 1);
+}
+
+.btn-brick:hover {
+    background-color: rgba(209, 142, 94, 0.8);
+}
+
+.btn-red {
+    background-color: rgba(209, 97, 94, 1);
+}
+
+.btn-red:hover {
+    background-color: rgba(209, 97, 94, 0.8);
+}
+
+.button-container {
+    margin: 0 0.2em 0 0.2em;
+    background-color: white;
+    padding: 1em 0.5em 3em 0.5em;
+}
+
+hr {
+    border-style: solid;
+    color: #edf1f8;
+    margin-bottom: 1em;
+}
+
+.button-gtoups {
+    display: flex;
+    justify-content: space-between;
 }

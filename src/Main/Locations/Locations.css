@@ -1,0 +1,38 @@
+.locations-container {
+    margin: 0 0.2em 0 0.2em;
+    background-color: white;
+    padding: 0.5em;
+}
+
+.locations-heading {
+    margin: 0;
+    padding: 0.7em 0 0 0;
+    font-weight: normal;
+}
+
+.locations-text {
+    color: #9b9b9b;
+}
+
+.locations-table-legend {
+    font-weight: bold;
+    color: #9b9b9b;
+    text-align: left;
+    height: 2.5em;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0px;
+    border-bottom: 2px solid lightgray;    
+}
+
+td {
+    width: 17em;
+    height: 2.5em;
+    border-top: 1px solid lightgray;
+}
+
+.locations-checkbox {
+    background: none;
+}
