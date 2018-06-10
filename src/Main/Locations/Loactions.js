@@ -27,7 +27,7 @@ const Locations = () => (
                 }) => {
                     return(
                         <tr key={id}>
-                            <td><input type="checkbox" className="locations-checkbox" /></td>
+                            <td className="locations-checkbox"><input type="checkbox" /></td>
                             <td>{location}</td>
                             <td>{reference}</td>
                             <td>{city}</td>
